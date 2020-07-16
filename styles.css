@@ -3,6 +3,36 @@
 }
 
 .nav-item {
-    font-size: x-large;
+    font-size: xx-large;
     color: black;
+}
+
+a {
+    color: rgba(0, 0, 0, 0.288);
+    text-decoration: none;
+}
+
+.social-icons {
+    padding: 100px;
+}
+
+#facebook:hover 
+{
+     color:rgba(18, 77, 241, 0.781); 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+#twitter:hover 
+{
+     color:rgb(3, 160, 250); 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+#instagram:hover 
+{
+     color:rgb(245, 67, 221); 
+     text-decoration:none; 
+     cursor:pointer;  
 }
