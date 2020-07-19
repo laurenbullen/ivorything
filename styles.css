@@ -12,25 +12,36 @@
     color: black;
 }
 
-a {
+
+
+.social-icon {
     color: rgba(0, 0, 0, 0.288);
     text-decoration: none;
+    padding: 8px
 }
 
-.social-icons {
-    padding: 100px;
+.occasion-link {
+    color: rgba(0, 0, 0, 0.733);
+    text-transform: uppercase;
+    font-family: 'Carrois Gothic SC', sans-serif;
+    padding: 5px
+}
+
+.occasion-link:hover {
+    color:rgba(0, 0, 0, 0.247);
+    text-decoration: none;
 }
 
 #facebook:hover 
 {
-     color:rgba(18, 77, 241, 0.781); 
+     color:rgba(48, 120, 253, 0.986); 
      text-decoration:none; 
      cursor:pointer;  
 }
 
 #twitter:hover 
 {
-     color:rgb(3, 160, 250); 
+     color:rgb(43, 174, 250); 
      text-decoration:none; 
      cursor:pointer;  
 }
@@ -42,4 +53,9 @@ a {
     -webkit-text-fill-color: transparent; 
      text-decoration:none; 
      cursor:pointer;  
+}
+
+.footer-copyright{
+    text-transform: uppercase;
+    font-family: 'Carrois Gothic SC', sans-serif;
 }
