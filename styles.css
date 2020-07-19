@@ -7,9 +7,9 @@
 
 }
 
-.nav-item {
-    font-size: xx-large;
-    color: black;
+.nav-link {
+    /* position: absolute; */
+    right: 200px;
 }
 
 
@@ -24,7 +24,7 @@
     color: rgba(0, 0, 0, 0.733);
     text-transform: uppercase;
     font-family: 'Carrois Gothic SC', sans-serif;
-    padding: 5px
+    padding: 5px; 
 }
 
 .occasion-link:hover {
@@ -60,6 +60,7 @@ footer {
 }
 
 .footer-copyright{
+    color: rgba(0, 0, 0, 0.733);
     text-transform: uppercase;
     font-family: 'Carrois Gothic SC', sans-serif;
 }
