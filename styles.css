@@ -2,6 +2,11 @@
     display: inline;
 }
 
+.header-image {
+    text-align: center;
+
+}
+
 .nav-item {
     font-size: xx-large;
     color: black;
@@ -32,7 +37,9 @@ a {
 
 #instagram:hover 
 {
-     color:rgb(245, 67, 221); 
+    background: -webkit-linear-gradient(rgb(202, 13, 240), yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
      text-decoration:none; 
      cursor:pointer;  
 }
