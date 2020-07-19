@@ -55,6 +55,10 @@
      cursor:pointer;  
 }
 
+footer {
+    position: relative;
+}
+
 .footer-copyright{
     text-transform: uppercase;
     font-family: 'Carrois Gothic SC', sans-serif;
