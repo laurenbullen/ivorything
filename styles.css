@@ -1,3 +1,9 @@
+body {
+    background-image: url(images/wedding-hills.jpg);
+    background-size: 1700px;
+    background-position: 0px -200px
+}
+
 #social-menu {
     display: inline;
 }
